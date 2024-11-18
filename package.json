@@ -1,0 +1,18 @@
+{
+  "name": "swap_automation",
+  "version": "1.0.0",
+  "description": "defi transaction auto",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "approve": "node src/scripts/approve.js"
+  },
+  "author": "elsalam",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.4",
+    "readline-sync": "^1.4.10"
+  }
+}
